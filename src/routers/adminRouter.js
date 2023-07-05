@@ -7,7 +7,7 @@ const adminRouter = express.Router();
 
 adminRouter.route("/").get((req, res) => {
   const url =
-    "mongodb+srv://elvisemuresan:<Barcelona3!@!>@globomantics.njydi5q.mongodb.net/?retryWrites=true&w=majority";
+    "mongodb+srv://dbUser:<Barcelona3!@!>@globomantics.g18ja3f.mongodb.net/?retryWrites=true&w=majority";
   const dbName = "globomantics";
 
   (async function mongo() {

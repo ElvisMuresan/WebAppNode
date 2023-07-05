@@ -24,5 +24,8 @@
     "env": {
       "PORT": 4000
     }
+  },
+  "devDependencies": {
+    "@types/mongodb": "^4.0.7"
   }
 }
